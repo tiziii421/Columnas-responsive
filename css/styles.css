@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(185, 75%, 39%);
+  font-family: sans-serif;
+}
+
+.top-circle{
+  width: 300px;
+  margin-top: 300px;
+}
+
+.bottom-circle{
+  width: 300px;
+  margin-bottom: 300px;
+}
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
