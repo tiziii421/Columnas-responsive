@@ -7,16 +7,27 @@
 body{
   background-color: hsl(185, 75%, 39%);
   font-family: sans-serif;
+  overflow: hidden;
 }
 
-.top-circle{
-  width: 300px;
-  margin-top: 300px;
+.bg-img{
+  position: fixed;
+  width: 700px;
 }
 
-.bottom-circle{
-  width: 300px;
-  margin-bottom: 300px;
+.bg-img__top-circle{
+  right: 500px;
+  bottom: 300px;
+}
+
+.bg-img__bottom-circle{
+  top: 350px;
+  left: 500px;
+}
+
+.tarjeta_header{
+  display: flex;
+  position: relative;
 }
 /*
   Color de fondo: hsl(185, 75%, 39%)
